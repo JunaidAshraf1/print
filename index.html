@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Print</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./asset/style.css">
+  <script src="./asset/index.js"></script>
+</head>
+
+<body>
+  <div id="controls">
+    <!-- <button onclick="savePageData()">Save</button>
+    <button onclick="savePageData()">Edit</button> -->
+    <button onclick="printDiv('main-page')">Print</button>
+    <button onclick="resetSavedContent()">Reset</button>
+    <button onclick="fillDemoContent()">Fill Demo</button>
+  </div>
+
+  <div id="main-page">
+    <div id="mydiv">
+      <div id="mydivheader">Click here to move
+      </div>
+      <div class="form-field" contenteditable="true">
+        <div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <page size="A4"></page>
+  <page size="A4" layout="landscape"></page>
+  <page size="A5"></page>
+  <page size="A5" layout="landscape"></page>
+  <page size="A3"></page>
+  <page size="A3" layout="landscape"></page> -->
+</body>
